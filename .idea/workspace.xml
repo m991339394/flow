@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/项目" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,6 +116,7 @@
       <workItem from="1575627118516" duration="1572000" />
       <workItem from="1575863054233" duration="952000" />
       <workItem from="1575882323540" duration="595000" />
+      <workItem from="1575882933033" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1575882582542</created>
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575882667679</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit Message">
+      <created>1575883009548</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575883009548</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,18 +161,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="717" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1575599263307" />
-    <state x="442" y="122" key="CommitChangelistDialog2" timestamp="1575882667104">
+    <state x="442" y="122" key="CommitChangelistDialog2" timestamp="1575883008700">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="442" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1575882667104" />
-    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1575882487005">
+    <state x="442" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1575883008700" />
+    <state x="740" y="282" key="FileChooserDialogImpl" timestamp="1575884860015">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575882487005" />
-    <state x="779" y="437" width="385" height="192" key="Gitee.CreateGistDialog" timestamp="1575882976604">
+    <state x="740" y="282" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575884860015" />
+    <state x="779" y="437" width="385" height="192" key="Gitee.CreateGistDialog" timestamp="1575883099433">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="779" y="437" width="385" height="192" key="Gitee.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575882976604" />
+    <state x="779" y="437" width="385" height="192" key="Gitee.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575883099433" />
+    <state x="785" y="438" width="373" height="173" key="Github.CreateGistDialog" timestamp="1575885827148">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="785" y="438" width="373" height="173" key="Github.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575885827148" />
     <state width="1715" height="285" key="GridCell.Tab.0.bottom" timestamp="1575602761781">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -197,6 +209,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1715" height="285" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1575602761781" />
+    <state x="105" y="270" width="1648" height="509" key="IDE.errors.dialog" timestamp="1575884948128">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="105" y="270" width="1648" height="509" key="IDE.errors.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575884948128" />
     <state x="463" y="169" key="SettingsEditor" timestamp="1575882918848">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -205,10 +221,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="266" width="567" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1575519219918" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1575882673572">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1575883095843">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1575882673572" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1575883095843" />
+    <state x="334" y="232" key="new project wizard" timestamp="1575884707696">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="334" y="232" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1575884707696" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1575528064938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
