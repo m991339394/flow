@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eab407c-baea-48c3-88fd-1a956004da8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/llzz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/llzz_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_27.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llzz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/llzz.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +13,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="llzz" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PATH_TO_GIT" value="D:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="llzz" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -81,6 +102,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.User____MpGenerator" />
+        <item itemvalue="Application.User____MpGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +139,7 @@
       <workItem from="1575863054233" duration="952000" />
       <workItem from="1575882323540" duration="595000" />
       <workItem from="1575882933033" duration="1717000" />
+      <workItem from="1575945482190" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1575882582542</created>
@@ -221,10 +244,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="266" width="567" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1575519219918" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1575883095843">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1575945822138">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1575883095843" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1575945822138" />
+    <state x="675" y="326" key="git4idea.merge.GitPullDialog" timestamp="1575945763056">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="675" y="326" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575945763056" />
     <state x="334" y="232" key="new project wizard" timestamp="1575884707696">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
