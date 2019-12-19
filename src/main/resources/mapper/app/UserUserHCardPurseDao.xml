@@ -4,8 +4,8 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="io.renren.modules.app.model.po.UserHCardPursePO">
-        <id column="openid" property="openid" />
-        <result column="userId" property="userId" />
+        <id column="userId" property="userId" />
+        <result column="openid" property="openid" />
         <result column="balance" property="balance" />
         <result column="integralBalance" property="integralBalance" />
         <result column="createTime" property="createTime" />
@@ -14,7 +14,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        openid, userId, balance, integralBalance, createTime, updateTime
+        userId, openid, balance, integralBalance, createTime, updateTime
     </sql>
     
     <update id="recharge" parameterType="io.renren.modules.app.model.po.UserHCardPursePO">

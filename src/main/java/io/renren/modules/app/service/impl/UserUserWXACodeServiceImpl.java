@@ -2,6 +2,7 @@ package io.renren.modules.app.service.impl;
 
 import io.renren.common.utils.ImageUtil;
 import io.renren.common.utils.WXACodeUtil;
+import io.renren.common.utils.WXACodeUtil2;
 import io.renren.modules.app.model.form.PosterForm;
 import io.renren.modules.app.model.form.QRCodeForm;
 import io.renren.modules.app.service.UserUserWXACodeService;
@@ -23,7 +24,18 @@ public class UserUserWXACodeServiceImpl  implements UserUserWXACodeService {
     @Override
     public String getAppQRCode(QRCodeForm qrCodeForm) {
         Map map=new HashMap();
-        map.put("path" ,qrCodeForm.getPath()+"&userId="+qrCodeForm.getUserId());
+        String param="";
+        if(qrCodeForm.getId()!=null){
+            param+="?id="+qrCodeForm.getId();
+            param+="&userId="+qrCodeForm.getUserId();
+        }else{
+            param+="?userId="+qrCodeForm.getUserId();
+        }
+        map.put("path" ,qrCodeForm.getPath()+param);
+
+        if("2".equals(qrCodeForm.getType())){
+            return WXACodeUtil2.getWXACode(map);
+        }
         return WXACodeUtil.getWXACode(map);
     }
 
@@ -37,4 +49,5 @@ public class UserUserWXACodeServiceImpl  implements UserUserWXACodeService {
         }
         return null;
     }
+
 }

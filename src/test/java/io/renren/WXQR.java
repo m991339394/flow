@@ -1,7 +1,7 @@
 package io.renren;
 
 import com.alibaba.fastjson.JSONObject;
-import io.renren.common.utils.WXACodeUtil;
+import io.renren.common.utils.WXACodeUtil2;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ import java.util.Map;
 @SpringBootTest
 public class WXQR {
     @Autowired
-    WXACodeUtil wxaCode;
+    WXACodeUtil2 wxaCode;
 
     @Test
     public void test() {

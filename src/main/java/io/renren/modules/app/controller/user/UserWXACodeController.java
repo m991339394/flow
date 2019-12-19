@@ -24,7 +24,7 @@ public class UserWXACodeController {
 
     /**
      * @Author jgl
-     * @Description
+     * @Description 获取带参数的小程序码
      * @Date 17:34 2019/12/6
      * @Param [openid]
      * @return io.renren.common.Result<?>
@@ -37,7 +37,7 @@ public class UserWXACodeController {
 
     /**
      * @Author jgl
-     * @Description
+     * @Description 生成海报
      * @Date 17:34 2019/12/6
      * @Param [openid]
      * @return io.renren.common.Result<?>
@@ -47,14 +47,18 @@ public class UserWXACodeController {
 
         QRCodeForm qrCodeForm=new QRCodeForm();
         qrCodeForm.setPath(posterForm.getPath());
-        qrCodeForm.setPath(posterForm.getUserId());
+        qrCodeForm.setUserId(posterForm.getUserId());
+        qrCodeForm.setId(posterForm.getId());
+        qrCodeForm.setType(posterForm.getType());
         String qrCodeImageUrl=wxaCodeService.getAppQRCode(qrCodeForm);
         posterForm.setNameText("送给你一个礼物");
         posterForm.setCqText("快来扫码领取礼物吧，更多祝福都在我的礼品之家");
         posterForm.setQrCodeImageUrl(qrCodeImageUrl);
-//        posterForm.setQrCodeImageUrl("https://flowAdmin.834445.net/file/images/qrCode/2019-12-09/95ef21b7-bc94-4b6e-b4c7-c6a817f7b71a.jpg");
+//        posterForm.setQrCodeImageUrl("https://flowAdmin.834445.net/file/images/qrCode/2019-12-11/b0bc6d76-a72a-49d2-a144-c28bd20e511f.jpg");
         String url=wxaCodeService.getPoster(posterForm);
         return Result.success(url);
     }
+
+
 
 }

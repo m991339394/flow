@@ -512,8 +512,6 @@ public class UserUserHCardServiceImpl extends ServiceImpl<UserUserHCardDao, User
 								hCardBalanceLogPO.setUseStatus(HCardBalanceLogConstants.USE_STATES_RECHARGE);
 								hCardBalanceLogPO.setSourceType(HCardBalanceLogConstants.SOURCE_TYPE_ACTIVE);
 								hCardBalanceLogPO.setRemark("心意卡激活");
-								hCardBalanceLogPO.sethCardId(hCardId);
-								hCardBalanceLogPO.sethCardName(hCardName);
 								boolean flag=hCardBalanceLogService.insert(hCardBalanceLogPO);
 								if(!flag) {
 									error_msg="激活心意卡失败，增加日志记录" + "异常,"+" hCardId ="+hCardId;

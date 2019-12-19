@@ -25,4 +25,6 @@ public class PosterForm extends QRCodeForm{
     private String nameText;
     // 公司宣传语
     private String cqText;
+
+    private String type;
 }

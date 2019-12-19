@@ -20,5 +20,8 @@ public interface UserUserHCardPurseService extends IService<UserHCardPursePO> {
 	Result<?> pay(UserHCardBalanceLogPO hCardBalanceLogPO);
 	// 退款
 	Result<?> refund(UserHCardBalanceLogPO hCardBalanceLogPO);
-	
+
+	UserHCardPursePO getByUserId(Long userId);
+
+
 }

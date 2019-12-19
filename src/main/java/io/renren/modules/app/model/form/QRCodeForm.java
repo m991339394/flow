@@ -12,7 +12,9 @@ import lombok.Data;
 @Data
 public class QRCodeForm {
     private String path;
+    private String id;
     private String userId;
+    private String type;
 
 
 }

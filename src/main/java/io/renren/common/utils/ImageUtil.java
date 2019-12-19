@@ -173,8 +173,8 @@ public class ImageUtil {
         }
 
         // 5、二维码
-        int qrW = width + 20;
-        int qrH = height + 20;
+        int qrW = width + 50;
+        int qrH = height + 50;
         int qrX = WIDTH - x - qrW;
         int qrY = HEIGHT - qrH - y * 2;
         bgBufImageGraphics.drawImage(qrCodeImage, qrX, qrY, qrW, qrH, null);

@@ -70,7 +70,8 @@ public class UserHCardMapController {
 	}
 	
 	
-	/**
+	/*.
+	* *
 	 * 
 	 * @Title: getHCardByHCardTypeId   
 	 * @Description: 根据卡类型查询卡面图和价格

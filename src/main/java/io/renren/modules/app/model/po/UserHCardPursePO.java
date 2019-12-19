@@ -33,10 +33,10 @@ public class UserHCardPursePO extends BaseEntity {
     @ApiModelProperty(value = "openid")
     @TableId(value = "openid", type = IdType.INPUT)
     private String openid;
-    
-    @ApiModelProperty(value = "userid")
+
+    @ApiModelProperty(value = "userId")
     @TableField(value = "userId")
-    private Integer userId;
+    private Long userId;
 
     @ApiModelProperty(value = "余额")
     @TableField("balance")
@@ -54,56 +54,5 @@ public class UserHCardPursePO extends BaseEntity {
     @TableField("updateTime")
     private Date updateTime;
 
-	public Integer getUserId() {
-		return userId;
-	}
-
-	public void setUserId(Integer userId) {
-		this.userId = userId;
-	}
-
-	public String getOpenid() {
-		return openid;
-	}
-
-	public void setOpenid(String openid) {
-		this.openid = openid;
-	}
-
-	public Float getBalance() {
-		return balance;
-	}
-
-	public void setBalance(Float balance) {
-		this.balance = balance;
-	}
-
-	public Float getIntegralBalance() {
-		return integralBalance;
-	}
-
-	public void setIntegralBalance(Float integralBalance) {
-		this.integralBalance = integralBalance;
-	}
-
-	public Date getCreateTime() {
-		return createTime;
-	}
-
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
-	}
-
-	public Date getUpdateTime() {
-		return updateTime;
-	}
-
-	public void setUpdateTime(Date updateTime) {
-		this.updateTime = updateTime;
-	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 
 }
