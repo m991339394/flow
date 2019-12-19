@@ -2,40 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/AesCbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserRelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserRelationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/PosterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/PosterForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/QRCodeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/QRCodeForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserHCardBalanceLogPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserHCardBalanceLogPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserHCardPursePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserHCardPursePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserUserRelationPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserUserRelationPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserHCardPurseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserHCardPurseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserRelationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserHCardPurseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserHCardPurseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserHCardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserHCardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserRelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserRelationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserHCardBalanceLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserHCardBalanceLogDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserHCardPurseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserHCardPurseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserRelationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserUserRelationDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/renren/WXQR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/renren/WXQR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/flow.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiclient_cert.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardConsumeRecordDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardCouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHelpDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHomeSwiperDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardInsideSwiperDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardMapDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardOrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardPriceDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardTypeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminUserHCardDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserExpressDeliveryDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardBuyLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardConsumeRecordDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardCouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardGiveLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHelpDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHomeSwiperDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardInsideSwiperDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardMapDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardOrderDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardPriceDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardRefundLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardTypeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserCouponDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserDao.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardBalanceLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardBalanceLogDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardDao.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseRefundLogDao.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserRelationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserRelationDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/flow/FlowTaskDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/oss/SysOssDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysConfigDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysLogDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserTokenDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/explorer_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/logo_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/pet_store_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/throbber.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/wordnik_api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/index.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/translator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/backbone-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/es5-shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/handlebars-4.0.5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery-1.8.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.ba-bbq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.slideto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.wiggle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/js-yaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jsoneditor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/marked.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/object-assign-pollyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/sanitize-html.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/swagger-oauth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/o2c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/oauth2-redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flow.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flow.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/flow.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -578,7 +656,7 @@
       <workItem from="1576236151328" duration="1049000" />
       <workItem from="1576308370615" duration="1509000" />
       <workItem from="1576726455579" duration="3705000" />
-      <workItem from="1576732218141" duration="841000" />
+      <workItem from="1576732218141" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1575882543915</created>
@@ -608,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575951156074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改支付成功后，发卡是核对订单金额bug">
+      <created>1576738701921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576738701921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -644,12 +729,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288216000" />
+    <option name="totallyTimeSpent" value="289506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.13533835" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.13533835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -670,7 +755,7 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946293" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49946293" visible="true" weight="0.32963374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,7 +820,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
     <MESSAGE value="&quot;合并READNE.md文件&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;合并READNE.md文件&quot;" />
+    <MESSAGE value="修改支付成功后，发卡是核对订单金额bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改支付成功后，发卡是核对订单金额bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
