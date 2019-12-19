@@ -172,8 +172,16 @@ public class UserUserHCardPurseServiceImpl extends ServiceImpl<UserUserHCardPurs
 		}
 		
 	}
-	
-	
+
+	@Override
+	public UserHCardPursePO getByUserId(Long userId) {
+		QueryWrapper<UserHCardPursePO> queryWrapper=new QueryWrapper();
+		queryWrapper.eq("userId" ,userId);
+		UserHCardPursePO pursePO=hCardPurseDao.selectOne(queryWrapper);
+		return pursePO;
+	}
+
+
 	public Map HCardBalanceLogByOrderId(UserHCardBalanceLogPO hCardBalanceLogPO){
 		QueryWrapper<UserHCardBalanceLogPO> queryWrapper=new QueryWrapper<UserHCardBalanceLogPO>();
 		queryWrapper.eq("orderId", hCardBalanceLogPO.getOrderId());

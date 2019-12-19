@@ -1,7 +1,10 @@
 package io.renren.modules.app.service;
 
-import io.renren.modules.app.model.po.UserUserRelationPO;
 import com.baomidou.mybatisplus.extension.service.IService;
+import io.renren.common.Result;
+import io.renren.modules.app.model.po.UserUserRelationPO;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserUserRelationService extends IService<UserUserRelationPO> {
 
+    Result<?> insertRelation(HttpServletRequest request , UserUserRelationPO relationPO);
 }

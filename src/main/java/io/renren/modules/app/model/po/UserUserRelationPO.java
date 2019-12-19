@@ -32,11 +32,17 @@ public class UserUserRelationPO extends BaseEntity {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
+    @TableField("hCard_type_id")
+    private Long hCardTypeId;
+
     @TableField("parent_user_id")
     private Long parentUserId;
 
     @TableField("child_user_id")
     private Long childUserId;
+
+    @TableField("ip")
+    private String ip;
 
     @TableField("create_time")
     private Date createTime;

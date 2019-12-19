@@ -21,8 +21,8 @@ import static java.time.LocalDate.now;
 @RestController
 public class WXACodeUtil extends BaseController {
     private static String grant_type = "client_credential";
-    private static String appid = PayConfig.APPID2;
-    private static String secret = PayConfig.APP_SECRET2;
+    private static String appid = PayConfig.APPID;
+    private static String secret = PayConfig.APP_SECRET;
     private static String access_token = "28_SCv1M4r8jJRhDwJaMOAMQDMyFa9GLzODUl-yKbrSfEd_R6iVJwcIvkRLYsNA8B-S86QDH-4sALviV9gS3Xw_1TYMiCTuieUgfn7QWkZ8zeFo4r06UQdSsS_wdCp3-ZyRMUl4m8LDgz8_O90HYRVcAIAGZD";
 
     public static String getAccessToken() {
@@ -36,17 +36,12 @@ public class WXACodeUtil extends BaseController {
 
     public static String getWXACode(Object obj) {
         String access_token = getAccessToken();
-//        map.put("path" ,"pages/store/purchase/purchase?id=1");
-//        map.put("width" ,430);
-//        map.put("auto_color" ,true);
-//        map.put("line_color" ,"{\"r\":0,\"g\":0,\"b\":0}");
-//        map.put("is_hyaline" ,true);
         String param = JSONObject.toJSONString(obj);
         String url = "https://api.weixin.qq.com/wxa/getwxacode?access_token=" + access_token;
         String dirPath = StaticUtil.SAVE_QR_CODE_DIR ;
         String fileName = UUID.randomUUID() + ".jpg";
-        String newPath = dirPath+now()+File.separator+fileName ;  // /pro/pic/jpg
-        String savePath = StaticUtil.SAVE_URL_LINUX +newPath ;  // /pro/pic/jpg
+        String newPath = dirPath+now()+File.separator+fileName;  // /pro/pic/jpg
+        String savePath = StaticUtil.SAVE_URL_LINUX +newPath;  // /pro/pic/jpg
         File saveFile = new File(savePath);
         if(!saveFile.getParentFile().exists()){
             saveFile.getParentFile().mkdirs();

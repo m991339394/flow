@@ -288,7 +288,7 @@ public class UserHCardOrderServiceImpl extends ServiceImpl<UserHCardOrderDao, HC
                     Integer cash_fee = Integer.parseInt(map.get("cash_fee"));
                     //订单金额
                     Integer totol_fee = Math.round(hCardOrderPO.getTotalFee() * 100);
-                    if (cash_fee != totol_fee) {
+                    if (!cash_fee.equals(totol_fee)) {
                         return Result.fail("支付金额与订单金额不符！");
                     }
 

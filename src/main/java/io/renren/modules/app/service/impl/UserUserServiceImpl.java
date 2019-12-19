@@ -80,6 +80,7 @@ public class UserUserServiceImpl extends ServiceImpl<UserUserDao, UserPO> implem
 	                    if (user != null) {
 	                    	UserVO userVO=dozerBeanMapper.map(user, UserVO.class);
 	                    	userVO.setOpenId(openid);
+	                    	userVO.setSessionKey(session_key);
 	                        return Result.success(userVO);
 	                    } else {
 	                    	// 新用户
@@ -93,9 +94,12 @@ public class UserUserServiceImpl extends ServiceImpl<UserUserDao, UserPO> implem
 	                        int num = userDao.insert(user2);
 	                        UserVO userVO=dozerBeanMapper.map(user2, UserVO.class);
 	                        userVO.setOpenId(openid);
+	                        userVO.setOpenId(openid);
+							userVO.setSessionKey(session_key);
 	                        if(num==1) {
 	                        	// 创建心意卡钱包
 	                        	UserHCardPursePO userHCardPursePO=new UserHCardPursePO();
+	                        	userHCardPursePO.setUserId(user2.getId());
 	                        	userHCardPursePO.setOpenid(openid);
 	                        	userHCardPursePO.setBalance(0f);
 	                        	userHCardPursePO.setCreateTime(new Date());

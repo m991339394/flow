@@ -18,13 +18,11 @@
         <result column="useTime" property="useTime" />
         <result column="hCardId" property="hCardId" />
         <result column="hCardName" property="hCardName" />
-        <result column="consumer" property="consumer" />
-        <result column="phone" property="phone" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, openid, userId, balanceFront, balanceAfter, balance, useStatus, sourceType, orderId, orderType, remark, useTime, hCardId, hCardName, consumer, phone
+        id, openid, userId, balanceFront, balanceAfter, balance, useStatus, sourceType, orderId, orderType, remark, useTime, hCardId, hCardName
     </sql>
     
     <select id="getUserHCardBalanceLogByUseStatus" parameterType="map" resultMap="BaseResultMap" >
