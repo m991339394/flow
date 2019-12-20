@@ -31,6 +31,8 @@ public class AdminUserCommodityhitsController extends BaseController {
     UserCommodityhitsService userCommodityhitsService;
 
     /**
+     * 查找全部记录
+     *
      * @return
      */
     @RequestMapping(value = "/list.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
@@ -40,11 +42,13 @@ public class AdminUserCommodityhitsController extends BaseController {
     }
 
     /**
+     * 按名称查找记录
+     *
      * @return
      */
     @RequestMapping(value = "/one.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public Result<?> one(@RequestParam(value = "name") String name) {
-//        List<UserCommodityhitsPO> list = userCommodityhitsService.list();
+
         QueryWrapper<UserCommodityhitsPO> queryWrapper = new QueryWrapper();
         queryWrapper.like("name", name);
         UserCommodityhitsPO userCommodityhitsPO = userCommodityhitsService.getOne(queryWrapper);
