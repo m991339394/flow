@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +466,7 @@
       <workItem from="1576732218141" duration="2131000" />
       <workItem from="1576807999287" duration="869000" />
       <workItem from="1576809241701" duration="6397000" />
-      <workItem from="1576824286627" duration="1364000" />
+      <workItem from="1576824286627" duration="10175000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1575882543915</created>
@@ -507,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576819358340</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="增加后台商品点击量查看">
+      <created>1576825753665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576825753665</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加后台商品点击量查看">
+      <created>1576825847093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576825847093</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -566,49 +590,54 @@
     <MESSAGE value="&quot;合并READNE.md文件&quot;" />
     <MESSAGE value="修改支付成功后，发卡是核对订单金额bug" />
     <MESSAGE value="增加商品点击量" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加商品点击量" />
+    <MESSAGE value="增加后台商品点击量查看" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加后台商品点击量查看" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="545" y="127" key="CommitChangelistDialog2" timestamp="1576819357486">
+    <state x="764" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1576834547688">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="545" y="127" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576819357486" />
+    <state x="764" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576834547688" />
+    <state x="545" y="127" key="CommitChangelistDialog2" timestamp="1576825846539">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="545" y="127" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576825846539" />
     <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1576811049743">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576811049743" />
-    <state width="1859" height="279" key="GridCell.Tab.0.bottom" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.0.bottom" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.0.center" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.0.center" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.0.left" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.0.left" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.0.right" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.0.right" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.1.bottom" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.1.bottom" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.1.center" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.1.center" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.1.left" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.1.left" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
-    <state width="1859" height="279" key="GridCell.Tab.1.right" timestamp="1576825654981">
+    <state width="1859" height="277" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
+    <state width="1859" height="277" key="GridCell.Tab.1.right" timestamp="1576835740681">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1859" height="279" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576825654981" />
+    <state width="1859" height="277" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
     <state x="462" y="174" key="SettingsEditor" timestamp="1576809302472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -617,10 +646,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="680" y="274" width="540" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1576743484615" />
-    <state x="551" y="265" key="Vcs.Push.Dialog.v2" timestamp="1576819442243">
+    <state x="551" y="265" key="Vcs.Push.Dialog.v2" timestamp="1576828230413">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="551" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576819442243" />
+    <state x="551" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576828230413" />
+    <state x="659" y="332" key="git4idea.merge.GitPullDialog" timestamp="1576828192783">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="659" y="332" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576828192783" />
     <state x="622" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1576825603760">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

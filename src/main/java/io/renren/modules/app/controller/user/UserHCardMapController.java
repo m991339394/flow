@@ -6,6 +6,8 @@ import io.renren.common.Constants.HCardConstants;
 import io.renren.common.Result;
 import io.renren.modules.app.model.po.HCardMapPO;
 import io.renren.modules.app.model.po.HCardPricePO;
+import io.renren.modules.app.model.po.UserCommodityhitsPO;
+import io.renren.modules.app.service.UserCommodityhitsService;
 import io.renren.modules.app.service.UserHCardMapService;
 import io.renren.modules.app.service.UserHCardPriceService;
 import io.renren.modules.app.service.UserUserHCardService;
@@ -17,10 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -41,6 +40,8 @@ public class UserHCardMapController {
 	UserHCardPriceService userHCardPriceService;
 	@Autowired
 	UserUserHCardService userHCardService;
+	@Autowired
+	UserCommodityhitsService userCommodityhitsService;
 	
 	
 	/**
@@ -115,6 +116,15 @@ public class UserHCardMapController {
 //				}
 //    			hCardPriceVOs.add(hCardPriceVO);
 //			}
+
+			UserCommodityhitsPO userCommodityhitsPO = new UserCommodityhitsPO();
+//			HCardMapPO hCardMapPO = userHCardMapService.getOne(queryWrapper);
+
+			userCommodityhitsPO.setName(hCardPricePOs.get(0).getName());
+			userCommodityhitsPO.setOpenid(openid);
+			userCommodityhitsPO.setTypeid(hCardTypeId);
+			userCommodityhitsPO.setTime(new Date());
+			userCommodityhitsService.save(userCommodityhitsPO);
     		
     		relMap.put("hCardMapPOs", hCardMapPOs);
 //    		relMap.put("hCardPricePOs", hCardPriceVOs);

@@ -10,6 +10,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+import java.util.Date;
+
 /**
  * <p>
  * 
@@ -33,11 +35,14 @@ public class UserCommodityhitsPO extends BaseEntity {
     @TableField("typeid")
     private Long typeid;
 
-    @TableField("hits")
-    private Long hits;
+    @TableField("time")
+    private Date time;
 
     @TableField("name")
     private String name;
+
+    @TableField("openid")
+    private String openid;
 
 
 }
