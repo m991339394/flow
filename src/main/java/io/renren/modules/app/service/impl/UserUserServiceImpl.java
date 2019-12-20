@@ -6,6 +6,7 @@ import io.renren.common.Result;
 import io.renren.common.config.PayConfig;
 import io.renren.common.exception.RRException;
 import io.renren.common.utils.HttpRequest;
+import io.renren.common.utils.TimeUtil;
 import io.renren.modules.app.dao.UserUserDao;
 import io.renren.modules.app.model.form.LoginForm;
 import io.renren.modules.app.model.po.UserHCardPursePO;
@@ -13,7 +14,6 @@ import io.renren.modules.app.model.po.UserPO;
 import io.renren.modules.app.model.vo.UserVO;
 import io.renren.modules.app.service.UserUserHCardPurseService;
 import io.renren.modules.app.service.UserUserService;
-import io.renren.common.utils.TimeUtil;
 import org.apache.commons.lang.StringUtils;
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -78,6 +78,10 @@ public class UserUserServiceImpl extends ServiceImpl<UserUserDao, UserPO> implem
 	                    //如果是老用户
 	                    DozerBeanMapper dozerBeanMapper=new DozerBeanMapper();
 	                    if (user != null) {
+	                    	UserPO userPO=new UserPO();
+	                    	userPO.setId(user.getId());
+							userPO.setEndLoginTime(new Date());
+							userDao.updateById(userPO);
 	                    	UserVO userVO=dozerBeanMapper.map(user, UserVO.class);
 	                    	userVO.setOpenId(openid);
 	                    	userVO.setSessionKey(session_key);
