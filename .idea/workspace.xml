@@ -4,29 +4,11 @@
     <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/ImageUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/WXACodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/WXACodeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserRelationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserRelationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserWXACodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserWXACodeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/PosterForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/PosterForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/QRCodeForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/QRCodeForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserHCardBalanceLogPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserHCardBalanceLogPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserHCardPursePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserHCardPursePO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserUserRelationPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserUserRelationPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/vo/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/vo/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/UserUserHCardPurseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/UserUserHCardPurseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/UserUserRelationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/UserUserRelationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardBalanceLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardBalanceLogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardPurseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardPurseServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserHCardServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserRelationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserRelationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/renren/WXQR.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/renren/WXQR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +103,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/高歌旅游" />
+    <property name="last_opened_file_path" value="D:/项目/aa/flow" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -155,7 +140,7 @@
       <recent name="D:\GitProject\flow\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.User____MpGenerator">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
     <configuration default="true" type="WebLogic Instance" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="7001" />
       <deployment />
@@ -299,7 +284,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User____MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="User____MpGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.renren.User____MpGenerator" />
       <module name="flow" />
       <extension name="coverage">
@@ -358,7 +343,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.User____MpGenerator" />
         <item itemvalue="JUnit.WXQR.test" />
         <item itemvalue="JUnit.All in flow" />
         <item itemvalue="Application.WXQR" />
@@ -476,7 +460,7 @@
       <workItem from="1576726455579" duration="3705000" />
       <workItem from="1576732218141" duration="2131000" />
       <workItem from="1576807999287" duration="869000" />
-      <workItem from="1576809241701" duration="1335000" />
+      <workItem from="1576809241701" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1575882543915</created>
@@ -513,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576738701921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加商品点击量">
+      <created>1576810621588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576810621588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -571,45 +562,50 @@
     <MESSAGE value="初始化项目" />
     <MESSAGE value="&quot;合并READNE.md文件&quot;" />
     <MESSAGE value="修改支付成功后，发卡是核对订单金额bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改支付成功后，发卡是核对订单金额bug" />
+    <MESSAGE value="增加商品点击量" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加商品点击量" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1576808026086">
+    <state x="545" y="127" key="CommitChangelistDialog2" timestamp="1576810620132">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576808026086" />
-    <state width="1860" height="224" key="GridCell.Tab.0.bottom" timestamp="1576745964390">
+    <state x="545" y="127" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576810620132" />
+    <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1576811049743">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.0.center" timestamp="1576745964390">
+    <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576811049743" />
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.0.left" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.0.center" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.0.right" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.0.left" timestamp="1576813592545">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.1.bottom" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592545" />
+    <state width="1859" height="279" key="GridCell.Tab.0.right" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.1.center" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.1.bottom" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.1.left" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.1.center" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
-    <state width="1860" height="224" key="GridCell.Tab.1.right" timestamp="1576745964390">
+    <state width="1859" height="279" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.1.left" timestamp="1576813592546">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="224" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576745964390" />
+    <state width="1859" height="279" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
+    <state width="1859" height="279" key="GridCell.Tab.1.right" timestamp="1576813592546">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1859" height="279" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576813592546" />
     <state x="462" y="174" key="SettingsEditor" timestamp="1576809302472">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

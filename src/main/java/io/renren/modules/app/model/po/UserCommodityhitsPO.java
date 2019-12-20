@@ -36,5 +36,8 @@ public class UserCommodityhitsPO extends BaseEntity {
     @TableField("hits")
     private Long hits;
 
+    @TableField("name")
+    private String name;
+
 
 }

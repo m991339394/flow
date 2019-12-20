@@ -7,11 +7,12 @@
         <id column="id" property="id" />
         <result column="typeid" property="typeid" />
         <result column="hits" property="hits" />
+        <result column="name" property="name" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, typeid, hits
+        id, typeid, hits, name
     </sql>
 
 </mapper>

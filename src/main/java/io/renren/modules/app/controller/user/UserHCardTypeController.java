@@ -5,6 +5,7 @@ import io.renren.common.Constants.HCardTypeConstants;
 import io.renren.common.Result;
 import io.renren.modules.app.model.po.HCardTypePO;
 import io.renren.modules.app.model.po.UserCommodityhitsPO;
+//import io.renren.modules.app.model.po.UserPO;
 import io.renren.modules.app.service.UserCommodityhitsService;
 import io.renren.modules.app.service.UserHCardTypeService;
 import org.slf4j.Logger;
@@ -71,17 +72,29 @@ public class UserHCardTypeController {
     @RequestMapping(value = "/getById.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
     public Result<?> getById(@RequestParam(value = "id") Long id) {
         Map<String, Object> relMap = new HashMap<String, Object>();
-
-        if (userCommodityhitsService.getById(id) == null) {
+        long typeid  = id;
+        try {
+            QueryWrapper<UserCommodityhitsPO> queryWrapper = new QueryWrapper();
+            queryWrapper.eq("typeid", typeid);
+//            UserCommodityhitsPO byId = userCommodityhitsService.getById(queryWrapper);
+        if (userCommodityhitsService.getOne(queryWrapper) == null) {
             UserCommodityhitsPO userCommodityhitsPO = new UserCommodityhitsPO();
-            userCommodityhitsPO.setId(id);
-            userCommodityhitsPO.setHits(1l);
+            userCommodityhitsPO.setTypeid(id);
+            userCommodityhitsPO.setHits((long)1);
+            HCardTypePO hCardTypePO = userHCardTypeService.getById(id);
+            userCommodityhitsPO.setName(hCardTypePO.getName());
             userCommodityhitsService.save(userCommodityhitsPO);
         }else {
-			UserCommodityhitsPO userCommodityhitsPO = userCommodityhitsService.getById(id);
+			UserCommodityhitsPO userCommodityhitsPO = userCommodityhitsService.getOne(queryWrapper);
 			userCommodityhitsPO.setHits(userCommodityhitsPO.getHits()+1);
-			userCommodityhitsService.save(userCommodityhitsPO);
+            HCardTypePO hCardTypePO = userHCardTypeService.getById(id);
+            userCommodityhitsPO.setName(hCardTypePO.getName());
+			userCommodityhitsService.updateById(userCommodityhitsPO);
 		}
+        } catch (Exception e) {
+            e.printStackTrace();
+            return Result.fail(500, e.getMessage());
+        }
 
         try {
             HCardTypePO hCardTypePO = userHCardTypeService.getById(id);
