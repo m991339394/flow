@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
+    <list default="true" id="a2d2dd19-b145-47a7-acde-12deec06450e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserHCardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserHCardController.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,25 +21,35 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="flow" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+              <folding>
+                <element signature="docComment;class#AdminUserController#0" expanded="true" />
+                <element signature="docComment;method#getBuyRecord#1;class#AdminUserController#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserPO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,34 +58,28 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getBuyedCount</find>
-      <find>findByOpenId</find>
-      <find>ggwl.api.</find>
-      <find>BaseResultMapVO</find>
-      <find>imgName</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>io.renren.modules.app.</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>D:\GitProject\flow\src\main\java\io\renren\modules\app\demo</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="jingguoliang2019.12.08" />
-      </map>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/io/renren/User____MpGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/AdminUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/AdminUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/app/AdminUserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/AdminUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserHCardController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserController.java" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="D:/tool/apachemaven3.5.0" />
         <option name="userSettingsFile" value="D:\tool\apachemaven3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -91,61 +89,172 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1VEAgRRW8FScFXSX1qed8BlxfWC" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flow" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flow" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="896" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/项目/aa/flow" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\model\form" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\demo" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\dao" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\config" />
-      <recent name="D:\GitProject\flow\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="io.renren.modules.app.controller.admin" />
-      <recent name="io.renren.common.utils" />
-      <recent name="io.renren.common.config" />
-      <recent name="io.renren.modules.app.model.form" />
-      <recent name="io.renren.common.Constants" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\user" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\admin" />
-      <recent name="D:\GitProject\flow\src\main\resources\mapper\app" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\demo" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\utils" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RenrenApplication">
+    <configuration name="User____MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.User____MpGenerator" />
+      <module name="flow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="WebLogic Instance" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="7001" />
       <deployment />
@@ -276,438 +385,296 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.ImageUtil" />
-      <module name="flow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User____MpGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.User____MpGenerator" />
-      <module name="flow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WXQR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.WXQR" />
-      <module name="flow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in flow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flow" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WXQR.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.renren" />
-      <option name="MAIN_CLASS_NAME" value="io.renren.WXQR" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="flow" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WXQR.test" />
-        <item itemvalue="JUnit.All in flow" />
-        <item itemvalue="Application.WXQR" />
-        <item itemvalue="Application.ImageUtil" />
+        <item itemvalue="Application.User____MpGenerator" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="" />
-      <created>1573007656559</created>
+      <changelist id="a2d2dd19-b145-47a7-acde-12deec06450e" name="Default Changelist" comment="" />
+      <created>1576829487614</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573007656559</updated>
-      <workItem from="1573007657859" duration="1008000" />
-      <workItem from="1573010100619" duration="4667000" />
-      <workItem from="1573021896085" duration="6879000" />
-      <workItem from="1573033824944" duration="7840000" />
-      <workItem from="1573042349641" duration="2909000" />
-      <workItem from="1573090971827" duration="4229000" />
-      <workItem from="1573097506737" duration="93000" />
-      <workItem from="1573097692717" duration="1238000" />
-      <workItem from="1573118135390" duration="915000" />
-      <workItem from="1573125986891" duration="1387000" />
-      <workItem from="1573129815278" duration="615000" />
-      <workItem from="1573194586247" duration="909000" />
-      <workItem from="1573216490967" duration="1452000" />
-      <workItem from="1573286307363" duration="302000" />
-      <workItem from="1573286698119" duration="238000" />
-      <workItem from="1573287085483" duration="594000" />
-      <workItem from="1573288630765" duration="1730000" />
-      <workItem from="1573291249519" duration="200000" />
-      <workItem from="1573291552466" duration="1543000" />
-      <workItem from="1573443121321" duration="162000" />
-      <workItem from="1573451501567" duration="3215000" />
-      <workItem from="1573525980448" duration="2787000" />
-      <workItem from="1573562639176" duration="1715000" />
-      <workItem from="1574670159716" duration="11009000" />
-      <workItem from="1574686428398" duration="960000" />
-      <workItem from="1574732480383" duration="1405000" />
-      <workItem from="1574733986788" duration="2145000" />
-      <workItem from="1574736221984" duration="5742000" />
-      <workItem from="1574743420124" duration="861000" />
-      <workItem from="1574746673104" duration="7589000" />
-      <workItem from="1574761353897" duration="718000" />
-      <workItem from="1574762391482" duration="8411000" />
-      <workItem from="1574818847873" duration="9269000" />
-      <workItem from="1574829254198" duration="1342000" />
-      <workItem from="1574835426695" duration="23289000" />
-      <workItem from="1574904525462" duration="1380000" />
-      <workItem from="1574912757438" duration="268000" />
-      <workItem from="1574914921287" duration="2135000" />
-      <workItem from="1574923772541" duration="1919000" />
-      <workItem from="1574998110503" duration="40000" />
-      <workItem from="1575268380068" duration="1365000" />
-      <workItem from="1575270254115" duration="3581000" />
-      <workItem from="1575274894504" duration="845000" />
-      <workItem from="1575275836315" duration="1134000" />
-      <workItem from="1575277632115" duration="345000" />
-      <workItem from="1575278308504" duration="6879000" />
-      <workItem from="1575294599197" duration="153000" />
-      <workItem from="1575335619897" duration="6955000" />
-      <workItem from="1575358445416" duration="1748000" />
-      <workItem from="1575365029362" duration="1958000" />
-      <workItem from="1575367327485" duration="6025000" />
-      <workItem from="1575377715143" duration="3254000" />
-      <workItem from="1575423493110" duration="2029000" />
-      <workItem from="1575442416777" duration="3000" />
-      <workItem from="1575443287183" duration="5120000" />
-      <workItem from="1575510497959" duration="782000" />
-      <workItem from="1575515265065" duration="1120000" />
-      <workItem from="1575530498818" duration="1241000" />
-      <workItem from="1575537312746" duration="2001000" />
-      <workItem from="1575595976820" duration="4600000" />
-      <workItem from="1575603334405" duration="3909000" />
-      <workItem from="1575608689073" duration="5512000" />
-      <workItem from="1575615703198" duration="6705000" />
-      <workItem from="1575622867474" duration="11450000" />
-      <workItem from="1575639066438" duration="35000" />
-      <workItem from="1575684403778" duration="1327000" />
-      <workItem from="1575715425959" duration="8120000" />
-      <workItem from="1575860537224" duration="6637000" />
-      <workItem from="1575868417959" duration="2128000" />
-      <workItem from="1575871365364" duration="9687000" />
-      <workItem from="1575882053141" duration="2499000" />
-      <workItem from="1575894055280" duration="1947000" />
-      <workItem from="1575941356258" duration="3272000" />
-      <workItem from="1575945963574" duration="1126000" />
-      <workItem from="1575951080121" duration="493000" />
-      <workItem from="1576028922082" duration="7838000" />
-      <workItem from="1576060675477" duration="5389000" />
-      <workItem from="1576115093578" duration="3470000" />
-      <workItem from="1576123248232" duration="2765000" />
-      <workItem from="1576134167022" duration="4339000" />
-      <workItem from="1576141417564" duration="4460000" />
-      <workItem from="1576200134254" duration="8637000" />
-      <workItem from="1576223351556" duration="2866000" />
-      <workItem from="1576236151328" duration="1049000" />
-      <workItem from="1576308370615" duration="1509000" />
-      <workItem from="1576726455579" duration="3705000" />
-      <workItem from="1576732218141" duration="2131000" />
-      <workItem from="1576807999287" duration="869000" />
-      <workItem from="1576809241701" duration="6397000" />
-      <workItem from="1576824286627" duration="10175000" />
+      <updated>1576829487614</updated>
+      <workItem from="1576829492252" duration="6471000" />
     </task>
-    <task id="LOCAL-00001" summary="初始化项目">
-      <created>1575882543915</created>
+    <task id="LOCAL-00001" summary="获取用户最后一次登录时间">
+      <created>1576829757845</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1575882543915</updated>
+      <updated>1576829757846</updated>
     </task>
-    <task id="LOCAL-00002" summary="初始化项目">
-      <created>1575944572820</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1575944572820</updated>
-    </task>
-    <task id="LOCAL-00003" summary="初始化项目">
-      <created>1575945875204</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1575945875204</updated>
-    </task>
-    <task id="LOCAL-00004" summary="&quot;合并READNE.md文件&quot;">
-      <created>1575951156074</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1575951156074</updated>
-    </task>
-    <task id="LOCAL-00005" summary="修改支付成功后，发卡是核对订单金额bug">
-      <created>1576738701921</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576738701921</updated>
-    </task>
-    <task id="LOCAL-00006" summary="增加商品点击量">
-      <created>1576810621588</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576810621588</updated>
-    </task>
-    <task id="LOCAL-00007" summary="增加商品点击量">
-      <created>1576819358340</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1576819358340</updated>
-    </task>
-    <task id="LOCAL-00008" summary="增加后台商品点击量查看">
-      <created>1576825753665</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1576825753665</updated>
-    </task>
-    <task id="LOCAL-00009" summary="增加后台商品点击量查看">
-      <created>1576825847093</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1576825847093</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 07m 14s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 10m 09s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 19m 54s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 20m 30s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 25m 08s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 26m 28s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 31m 06s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 31m 59s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WXQR_test - 2019.12.06 at 17h 37m 57s.xml">
-      <configuration name="WXQR.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_flow - 2019.12.06 at 17h 39m 17s.xml">
-      <configuration name="All in flow" configurationId="JUnit" />
-    </history-entry>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6471000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.36734694" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32963374" />
+      <window_info anchor="bottom" id="Problems" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32963374" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.66481686" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.07769145" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32975295" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.30988184" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32963374" />
+      <window_info anchor="bottom" id="Problems" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32963374" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.66481686" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初始化项目" />
-    <MESSAGE value="&quot;合并READNE.md文件&quot;" />
-    <MESSAGE value="修改支付成功后，发卡是核对订单金额bug" />
-    <MESSAGE value="增加商品点击量" />
-    <MESSAGE value="增加后台商品点击量查看" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加后台商品点击量查看" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="764" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1576834547688">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="764" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576834547688" />
-    <state x="545" y="127" key="CommitChangelistDialog2" timestamp="1576825846539">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="545" y="127" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576825846539" />
-    <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1576811049743">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1576811049743" />
-    <state width="1859" height="277" key="GridCell.Tab.0.bottom" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.0.center" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.0.left" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.0.right" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.1.bottom" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.1.center" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.1.left" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state width="1859" height="277" key="GridCell.Tab.1.right" timestamp="1576835740681">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1859" height="277" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576835740681" />
-    <state x="462" y="174" key="SettingsEditor" timestamp="1576809302472">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="462" y="174" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1576809302472" />
-    <state x="680" y="274" width="540" height="524" key="StructurePopup" timestamp="1576743484615">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="680" y="274" width="540" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1576743484615" />
-    <state x="551" y="265" key="Vcs.Push.Dialog.v2" timestamp="1576828230413">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="551" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576828230413" />
-    <state x="659" y="332" key="git4idea.merge.GitPullDialog" timestamp="1576828192783">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="659" y="332" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576828192783" />
-    <state x="622" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1576825603760">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="622" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1576825603760" />
+    <MESSAGE value="获取用户最后一次登录时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取用户最后一次登录时间" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImgErToFileUtil.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImgErToFileUtil.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.java</url>
-          <line>267</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminHCardHelpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/ExpressDeliveryPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/HCardBuyLogPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/renren/User____MpGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserHCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6888">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/AdminUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/app/AdminUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserHCardForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/AdminUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/AdminUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminHCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3078" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminHCardPriceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminHCardConsumeRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/HCardPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserHCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminHCardTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding>
+            <element signature="docComment;class#AdminUserController#0" expanded="true" />
+            <element signature="docComment;method#getBuyRecord#1;class#AdminUserController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (flow)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -740,19 +707,6 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>flow</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.43290043" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -767,7 +721,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

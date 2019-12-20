@@ -70,13 +70,14 @@ public class UserUserController extends BaseController {
 		JSONObject jsonObject = new org.json.JSONObject(decrypt);
 		String nickName = jsonObject.get("nickName").toString();
 		String avatarUrl=jsonObject.get("avatarUrl").toString();
-		String phoneNumber=jsonObject.get("phoneNumber").toString();
+//		String phoneNumber=jsonObject.get("phoneNumber").toString();
 
 		UserPO userPO=new UserPO();
 		userPO.setId(userId);
 		userPO.setNickName(nickName);
 		userPO.setFaceIcon(avatarUrl);
-		userPO.setMobile(phoneNumber);
+//		userPO.setMobile(phoneNumber);
+
 
 		boolean flag=userService.updateById(userPO);
     	return flag?Result.success():Result.fail();

@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-import java.util.Date;
+import java.sql.Timestamp;
 
 /**   
  * @ClassName:  UserHCardVO   
@@ -60,11 +60,11 @@ public class UserHCardVO{
 
 	@ApiModelProperty(value = "获取时间")
 	@TableField("fetch_time")
-	private Date fetchTime;
+	private Timestamp fetchTime;
 
 	@ApiModelProperty(value = "转赠时间")
 	@TableField("give_time")
-	private Date giveTime;
+	private Timestamp giveTime;
 
 	@ApiModelProperty(value = "状态(0未激活 ，1已激活 ,2转赠中,3转赠失败，4转赠成功 ，5退款，6、领取 ，7、接受 )")
 	@TableField("state")
