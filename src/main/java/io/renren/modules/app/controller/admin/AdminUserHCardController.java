@@ -41,7 +41,7 @@ public class AdminUserHCardController extends BaseController {
 	 * @throws
 	 */
 	@RequestMapping(value = "/getBuyRecord.do", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
-	public LayerMsg getBuyRecord(@RequestBody UserHCardForm userHCardForm){
+	public LayerMsg getBuyRecord( UserHCardForm userHCardForm){
     	try {
     		
     		int pageNo=userHCardForm.getPageNo();
