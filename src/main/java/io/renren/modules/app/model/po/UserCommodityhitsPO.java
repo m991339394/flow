@@ -44,5 +44,8 @@ public class UserCommodityhitsPO extends BaseEntity {
     @TableField("openid")
     private String openid;
 
+    @TableField("img")
+    private String img;
+
 
 }

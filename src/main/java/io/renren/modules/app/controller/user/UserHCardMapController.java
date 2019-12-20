@@ -123,6 +123,7 @@ public class UserHCardMapController {
 			userCommodityhitsPO.setName(hCardPricePOs.get(0).getName());
 			userCommodityhitsPO.setOpenid(openid);
 			userCommodityhitsPO.setTypeid(hCardTypeId);
+			userCommodityhitsPO.setImg(hCardMapPOs.get(0).getImg());
 			userCommodityhitsPO.setTime(new Date());
 			userCommodityhitsService.save(userCommodityhitsPO);
     		

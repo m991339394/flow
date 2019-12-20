@@ -9,11 +9,12 @@
         <result column="time" property="time" />
         <result column="name" property="name" />
         <result column="openid" property="openid" />
+        <result column="img" property="img" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, typeid, time, name, openid
+        id, typeid, time, name, openid, img
     </sql>
 
 </mapper>

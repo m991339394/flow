@@ -1,4 +1,5 @@
 package io.renren.common.utils;
+
 import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 

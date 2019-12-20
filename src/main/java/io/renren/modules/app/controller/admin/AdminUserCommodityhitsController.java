@@ -2,16 +2,17 @@ package io.renren.modules.app.controller.admin;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import io.renren.common.LayerMsg;
 import io.renren.common.Result;
 import io.renren.common.utils.BaseController;
 import io.renren.common.utils.StringUtils;
+import io.renren.modules.app.model.form.GoodsBrowseForm;
 import io.renren.modules.app.model.po.UserCommodityhitsPO;
 import io.renren.modules.app.service.UserCommodityhitsService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -85,29 +86,41 @@ public class AdminUserCommodityhitsController extends BaseController {
 
     }
 
-    @RequestMapping(value = "/getLogs.do", method = RequestMethod.GET, produces = "application/json;charset=UTF-8")
-    public Result<?> getLogs(@RequestParam(value = "timeStart") String timeStart
-            , @RequestParam(value = "timeStop") String timeStop
-            , @RequestParam(value = "name") String name) {
+    @RequestMapping(value = "/getLogs.do", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
+    public LayerMsg getLogs(@RequestBody GoodsBrowseForm goodsBrowseForm) {
+
+
+        int pageNo=goodsBrowseForm.getPageNo();
+        int pageSize=goodsBrowseForm.getPageSize();
+        PageHelper.startPage(pageNo, pageSize);
 
         QueryWrapper<UserCommodityhitsPO> queryWrapper = new QueryWrapper();
-        queryWrapper.ge("time", timeStart);
-        if (StringUtils.isEmpty(timeStop)) {
-            queryWrapper.le("time", new Date());
-        } else {
-            queryWrapper.le("time", timeStop);
+
+        if (StringUtils.isNotEmpty(goodsBrowseForm.getStartTime())) {
+            queryWrapper.ge("time", goodsBrowseForm.getStartTime());
         }
-        if (StringUtils.isNotEmpty(name)) {
-            queryWrapper.like("name", name);
+
+        if (StringUtils.isNotEmpty(goodsBrowseForm.getEndTime())) {
+            queryWrapper.le("time", goodsBrowseForm.getEndTime());
+        }
+        if (StringUtils.isNotEmpty(goodsBrowseForm.getName())) {
+            queryWrapper.like("name", goodsBrowseForm.getName());
         }
         List<UserCommodityhitsPO> userCommodityhitsPOS = userCommodityhitsService.list(queryWrapper);
         List<UserCommodityhitsPO> userCommodityhitsPOS2 = userCommodityhitsPOS.stream().collect(Collectors.collectingAndThen(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(UserCommodityhitsPO :: getOpenid))), ArrayList::new));
         userCommodityhitsPOS.size();
         Map<String, Object> map = new HashMap<>();
         map.put("DAUs",userCommodityhitsPOS2.size());
-        map.put("userCommodityhitsPOS",userCommodityhitsPOS);
+//        map.put("userCommodityhitsPOS",userCommodityhitsPOS);
         map.put("hits", userCommodityhitsPOS.size());
-        return Result.success(map);
+
+        List<Object> list=new ArrayList<>();
+        list.add(map);
+        list.add(userCommodityhitsPOS);
+
+        PageInfo pageInfo = new PageInfo(userCommodityhitsPOS, pageSize);
+
+        return LayerMsg.success(pageInfo.getTotal(), list);
 
     }
 
