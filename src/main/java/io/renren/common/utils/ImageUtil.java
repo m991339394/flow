@@ -98,6 +98,7 @@ public class ImageUtil {
         int y;
         int width;
         int height;
+        int spacing = 5;
         int rowTextNum = 10; // 一行多少字
         int increase = 20; // 行距
         BufferedImage bgBufImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);// RGB形式
@@ -106,9 +107,12 @@ public class ImageUtil {
         bgBufImageGraphics.clearRect(0, 0, WIDTH, HEIGHT);// 通过使用当前绘图表面的背景色进行填充来清除指定的矩形 。
 
 
-        BufferedImage posterImage = ImageIO.read(new URL(backgroundImageUrl));
-        BufferedImage qrCodeImage = ImageIO.read(new URL(qrCodeImageUrl));
-        BufferedImage headImage = ImageIO.read(new URL(headImgUrl));
+        BufferedImage posterImage = zoomImage(backgroundImageUrl, 250, 250);
+        BufferedImage qrCodeImage = zoomImage(qrCodeImageUrl, 100, 100);
+        BufferedImage headImage = zoomImage(headImgUrl, 50, 50);
+//        BufferedImage posterImage = ImageIO.read(new URL(backgroundImageUrl));
+//        BufferedImage qrCodeImage = ImageIO.read(new URL(qrCodeImageUrl));
+//        BufferedImage headImage = ImageIO.read(new URL(headImgUrl));
         // 设置圆形图片
         BufferedImage roundHeadImg = new BufferedImage(headImage.getWidth(), headImage.getHeight(),
                 BufferedImage.TYPE_INT_RGB);
@@ -132,14 +136,14 @@ public class ImageUtil {
         // 抗锯齿
         bgBufImageGraphics.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         x = 30; // x轴边距
-        y = 30; // y轴边距
+        y = 10; // y轴边距
         width = 50;
         height = 50;
         // 1、头像
         int hX = x;
         int hY = y;
-        int hW = width;
-        int hH = height;
+        int hW = headImage.getWidth();
+        int hH = headImage.getHeight();
         bgBufImageGraphics.drawImage(roundHeadImg, hX, hY, hW, hH, null);
         // 计算文字长度，计算居中的x点坐标
         // 2、昵称
@@ -149,9 +153,9 @@ public class ImageUtil {
 
         // 3、海报
         int pX = x;
-        int pY = hY + hH + 50;
-        int pW = WIDTH - 2 * x;
-        int pH = HEIGHT / 3;
+        int pY = hY + hH + spacing;
+        int pW = posterImage.getWidth();
+        int pH = posterImage.getHeight();
         bgBufImageGraphics.drawImage(posterImage, pX, pY, pW, pH, null);
 
         // 4、海报下面的文字    计算文字长度，计算居中的x点坐标
@@ -160,8 +164,8 @@ public class ImageUtil {
         int pTX = (WIDTH - remarkWidth) / 2;
         int pTY = pY + pH + increase;
         int length = remark.length();
-        if(length>rowTextNum){
-            pTX = (WIDTH - (remarkWidth/length)*rowTextNum) / 2;
+        if (length > rowTextNum) {
+            pTX = (WIDTH - (remarkWidth / length) * rowTextNum) / 2;
         }
         for (int i = 0; i < length; i += rowTextNum) {
             if (i + rowTextNum <= length) {
@@ -173,10 +177,10 @@ public class ImageUtil {
         }
 
         // 5、二维码
-        int qrW = width + 50;
-        int qrH = height + 50;
+        int qrW = qrCodeImage.getWidth();
+        int qrH = qrCodeImage.getHeight();
         int qrX = WIDTH - x - qrW;
-        int qrY = HEIGHT - qrH - y * 2;
+        int qrY = pTY - increase;
         bgBufImageGraphics.drawImage(qrCodeImage, qrX, qrY, qrW, qrH, null);
 
         // 6、公司宣传语
@@ -501,6 +505,45 @@ public class ImageUtil {
 //        ImageUtil.drawImage2();
 //
 //    }
+
+
+    /**
+     * @return java.awt.image.BufferedImage
+     * @Author jgl
+     * @Description 图片压缩
+     * @Date 20:10 2019/12/19
+     * @Param [src]
+     **/
+    public static BufferedImage zoomImage(String url, int toWidth, int toHeight) {
+
+        BufferedImage result = null;
+
+        try {
+
+            BufferedImage im = ImageIO.read(new URL(url));
+
+            /* 原始图像的宽度和高度 */
+
+            //压缩计算
+            float resizeTimes = 0.5f;  /*这个参数是要转化成的倍数,如果是1就是转化成1倍*/
+
+            /* 调整后的图片的宽度和高度 */
+
+            /* 新生成结果图片 */
+            result = new BufferedImage(toWidth, toHeight,
+                    BufferedImage.TYPE_INT_RGB);
+
+            result.getGraphics().drawImage(
+                    im.getScaledInstance(toWidth, toHeight,
+                            java.awt.Image.SCALE_SMOOTH), 0, 0, null);
+
+        } catch (Exception e) {
+            System.out.println("创建缩略图发生异常" + e.getMessage());
+        }
+
+        return result;
+
+    }
 
 
     /**

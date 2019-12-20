@@ -54,6 +54,8 @@ public class UserWXACodeController {
         posterForm.setNameText("送给你一个礼物");
         posterForm.setCqText("快来扫码领取礼物吧，更多祝福都在我的礼品之家");
         posterForm.setQrCodeImageUrl(qrCodeImageUrl);
+//        posterForm.setBackgroundImageUrl("https://flowAdmin.834445.net/file/images/map/2019-12-19/bd2c51a9-7633-444a-a22a-d81c339d752e.jpg");
+//        posterForm.setFaceIcon("https://wx.qlogo.cn/mmopen/vi_32/fLbx3l9jEV5NiaviciaIBdnTPpRSVwE1l3NNV7Mvicrzia6WTvhseZc8ouk916nZ6TmrSZWtWOUuBZmdibkdEdVibpD7Q/132");
 //        posterForm.setQrCodeImageUrl("https://flowAdmin.834445.net/file/images/qrCode/2019-12-11/b0bc6d76-a72a-49d2-a144-c28bd20e511f.jpg");
         String url=wxaCodeService.getPoster(posterForm);
         return Result.success(url);

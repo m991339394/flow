@@ -2,118 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/flow.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiclient_cert.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardConsumeRecordDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardCouponDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHelpDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHomeSwiperDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardInsideSwiperDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardMapDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardOrderDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardPriceDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardTypeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/AdminUserHCardDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserExpressDeliveryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardBuyLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardConsumeRecordDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardCouponDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardGiveLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHelpDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHomeSwiperDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardInsideSwiperDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardMapDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardOrderDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardPriceDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardRefundLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardTypeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserCouponDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardBalanceLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardBalanceLogDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseRefundLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserUserRelationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserRelationDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/flow/FlowTaskDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/oss/SysOssDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysConfigDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserTokenDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/css/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/collapse.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/expand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/explorer_icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/logo_small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/pet_store_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/throbber.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/images/wordnik_api.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/index.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/translator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/backbone-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/es5-shim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/handlebars-4.0.5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack_extended.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery-1.8.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.ba-bbq.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.slideto.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.wiggle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/js-yaml.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/jsoneditor.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/lodash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/marked.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/object-assign-pollyfill.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/sanitize-html.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/lib/swagger-oauth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/o2c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/oauth2-redirect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.min.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Circle99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/renren/MyCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/renren/NarrowImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/renren/service/MyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardConsumeRecordDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardCouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHelpDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardHomeSwiperDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardInsideSwiperDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardMapDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardOrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardPriceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminHCardTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/AdminUserHCardDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserExpressDeliveryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardBuyLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardConsumeRecordDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardCouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardGiveLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHelpDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardHomeSwiperDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardInsideSwiperDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardMapDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardOrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardPriceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardRefundLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserHCardTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserCouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserUserHCardPurseRefundLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/flow/FlowTaskDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/job/ScheduleJobLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/oss/SysOssDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysConfigDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/sys/SysUserTokenDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/index.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/handlebars-4.0.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/sanitize-html.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/swagger/swagger-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserHCardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserHCardVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flow.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/flow.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/flow.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -165,8 +172,9 @@
       <find>getBuyedCount</find>
       <find>findByOpenId</find>
       <find>ggwl.api.</find>
-      <find>BaseResultMapVO</find>
       <find>imgName</find>
+      <find>getUserHCardRecord</find>
+      <find>BaseResultMapVO</find>
     </findStrings>
     <replaceStrings>
       <replace>io.renren.modules.app.</replace>
@@ -187,11 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserHCardGiveLogService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/job/task/ReturnHCard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserHCardVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/UserUserHCardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserHCardService.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/ExpressDeliveryPO.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserHCardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/ExpressDeliveryVO.java" />
@@ -210,12 +213,9 @@
         <option value="$PROJECT_DIR$/src/test/java/io/renren/WXQR.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/StaticUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/HttpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserVO.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserWXACodeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil2.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/QRCodeForm.java" />
@@ -236,8 +236,16 @@
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserRelationServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardTypeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserHCardOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/renren/service/MyImage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/renren/NarrowImage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Circle99.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/renren/MyCircle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserHCardVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java" />
       </list>
     </option>
   </component>
@@ -282,19 +290,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="flow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flow" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,21 +348,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RenrenApplication">
-    <configuration name="ImageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.common.utils.ImageUtil" />
+    <configuration name="Circle99" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circle99" />
       <module name="flow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.common.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User____MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.User____MpGenerator" />
+    <configuration name="MyCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.MyCircle" />
       <module name="flow" />
       <extension name="coverage">
         <pattern>
@@ -376,8 +368,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WXQR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.renren.WXQR" />
+    <configuration name="NarrowImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.renren.NarrowImage" />
       <module name="flow" />
       <extension name="coverage">
         <pattern>
@@ -552,11 +544,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Circle99" />
+        <item itemvalue="Application.MyCircle" />
+        <item itemvalue="Application.NarrowImage" />
         <item itemvalue="JUnit.WXQR.test" />
         <item itemvalue="JUnit.All in flow" />
-        <item itemvalue="Application.WXQR" />
-        <item itemvalue="Application.User____MpGenerator" />
-        <item itemvalue="Application.ImageUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -656,7 +648,13 @@
       <workItem from="1576236151328" duration="1049000" />
       <workItem from="1576308370615" duration="1509000" />
       <workItem from="1576726455579" duration="3705000" />
-      <workItem from="1576732218141" duration="2131000" />
+      <workItem from="1576732218141" duration="2591000" />
+      <workItem from="1576741619001" duration="1347000" />
+      <workItem from="1576746630658" duration="9162000" />
+      <workItem from="1576756684246" duration="7349000" />
+      <workItem from="1576809342609" duration="1501000" />
+      <workItem from="1576810973568" duration="4988000" />
+      <workItem from="1576823431789" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1575882543915</created>
@@ -693,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576738701921</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="合并代码">
+      <created>1576739670290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576739670290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -729,12 +734,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289506000" />
+    <option name="totallyTimeSpent" value="315036000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.13533835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834436" visible="true" weight="0.27873254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -742,11 +756,11 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42841288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5083241" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45948946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5771365" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946293" weight="0.32963374" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -755,11 +769,11 @@
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49946293" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946293" weight="0.32963374" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.16487648" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1482277" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Bean Validation" order="6" />
@@ -821,7 +835,8 @@
     <MESSAGE value="初始化项目" />
     <MESSAGE value="&quot;合并READNE.md文件&quot;" />
     <MESSAGE value="修改支付成功后，发卡是核对订单金额bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改支付成功后，发卡是核对订单金额bug" />
+    <MESSAGE value="合并代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -844,244 +859,16 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserHCardForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/DebugGraphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1043" column="19" selection-start-line="1043" selection-start-column="19" selection-end-line="1043" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/FontMetrics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="355" column="15" selection-start-line="355" selection-start-column="15" selection-end-line="355" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/image/ImageObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Graphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="922" column="45" selection-start-line="922" selection-start-column="45" selection-end-line="922" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/HttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/thirdParty/wxSdk/WXOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="82" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/IPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/UserUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/AesCbcUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="303" column="43" lean-forward="true" selection-start-line="303" selection-start-column="43" selection-end-line="303" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3851">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#drawImage#0;class#ImageUtil#0" expanded="true" />
-            <element signature="docComment;method#drawImage#1;class#ImageUtil#0" expanded="true" />
-            <element signature="method#drawImage3#0;class#ImageUtil#0" />
-            <element signature="docComment;method#drawImage#2;class#ImageUtil#0" expanded="true" />
-            <element signature="method#drawImage2#0;class#ImageUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/config/PayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/WXACodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/PosterForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserWXACodeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/QRCodeForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#UserUserWXACodeServiceImpl#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getAppQRCode#0;class#UserWXACodeController#0" expanded="true" />
-            <element signature="docComment;method#getPoster#0;class#UserWXACodeController#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/app/UserUserRelationDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserUserRelationPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserHCardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserUserRelationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/app/UserUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserHCardPurseRefundLogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1225,19 +1012,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserHCardController.java">
+    <entry file="file://$PROJECT_DIR$/db/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/datasource/config/DynamicDataSourceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="-30">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="docComment;class#DynamicDataSourceFactory#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/datasource/config/DynamicDataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="299" column="37" selection-start-line="299" selection-start-column="37" selection-end-line="299" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/renren/service/MyImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;class#MyImage#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8-sources.jar!/net/coobird/thumbnailator/name/Rename.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="46" column="68" lean-forward="true" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+          <folding>
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1385" column="32" selection-start-line="1385" selection-start-column="32" selection-end-line="1385" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/coobird/thumbnailator/0.4.8/thumbnailator-0.4.8-sources.jar!/net/coobird/thumbnailator/Thumbnails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5720">
+          <caret line="881" column="40" selection-start-line="881" selection-start-column="36" selection-end-line="881" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/image/codec/jpeg/JPEGCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/image/codec/jpeg/JPEGEncodeParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="231" column="11" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Graphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="896" column="25" selection-start-line="896" selection-start-column="25" selection-end-line="896" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/RenderingHints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="199" column="4" lean-forward="true" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+          <folding>
+            <element signature="e#8281#8988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/renren/NarrowImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/renren/MyCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Circle99.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserUserWXACodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#UserUserWXACodeServiceImpl#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/common/utils/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="126" column="66" selection-start-line="126" selection-start-column="66" selection-end-line="126" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#drawImage#0;class#ImageUtil#0" expanded="true" />
+            <element signature="docComment;method#drawImage#1;class#ImageUtil#0" expanded="true" />
+            <element signature="method#drawImage3#0;class#ImageUtil#0" />
+            <element signature="docComment;method#drawImage#2;class#ImageUtil#0" expanded="true" />
+            <element signature="method#drawImage2#0;class#ImageUtil#0" />
+            <element signature="docComment;method#zoomImage#0;class#ImageUtil#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/awt/SunHints.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserHCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="258" column="22" lean-forward="true" selection-start-line="258" selection-start-column="22" selection-end-line="258" selection-end-column="22" />
+          <folding>
+            <element signature="docComment;method#getHCardByReceive#0;class#UserUserHCardController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserWXACodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getAppQRCode#0;class#UserWXACodeController#0" expanded="true" />
+            <element signature="docComment;method#getPoster#0;class#UserWXACodeController#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/UserHCardForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserHCardPO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/AdminUserHCardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/AdminUserHCardDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/app/AdminUserHCardDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/vo/UserHCardVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserHCardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbnail.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#findByOpenId#0;class#UserUserController#0" expanded="true" />
             <element signature="docComment;method#updateUserInfo#0;class#UserUserController#0" expanded="true" />
           </folding>
         </state>
