@@ -7,43 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b982cf48-1cc1-48a0-91bb-2e04a8681e7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flow.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/form/GoodsBrowseForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/dao/AdminUserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/GoodsBrowseForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/form/UserForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/AdminUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/AdminUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/flow.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Circle99.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/renren/MyCircle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/renren/NarrowImage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/renren/service/MyImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/AesCbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/common/utils/AesCbcUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/controller/user/UserHCardMapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/model/po/UserCommodityhitsPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/src/main/resources/mapper/app/AdminUserDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/UserCommodityhitsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/dao/UserCommodityhitsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserCommodityhitsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/UserCommodityhitsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserCommodityhitsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/renren/modules/app/service/impl/UserCommodityhitsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/flow.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/AesCbcUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/AesCbcUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/common/utils/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/common/utils/ImageUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserCommodityhitsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserHCardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/admin/AdminUserHCardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserHCardMapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserWXACodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/controller/user/UserWXACodeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/po/UserCommodityhitsPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/vo/UserHCardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/model/vo/UserHCardVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/app/UserCommodityhitsDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserCommodityhitsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/renren/modules/app/service/impl/UserCommodityhitsServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,12 +122,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\项目\flow\src\main\java\io\renren\modules\web\annotation" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\user" />
+      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\admin" />
+      <recent name="D:\GitProject\flow\src\main\resources\mapper\app" />
       <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\demo" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\dao" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\config" />
-      <recent name="D:\GitProject\flow\src\main\resources" />
+      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.renren.modules.app.model.form" />
@@ -163,12 +135,12 @@
       <recent name="io.renren.modules.app.controller" />
       <recent name="io.renren.common.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\user" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\controller\admin" />
-      <recent name="D:\GitProject\flow\src\main\resources\mapper\app" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\项目\flow\src\main\java\io\renren\modules\web\annotation" />
       <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\demo" />
-      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\utils" />
+      <recent name="D:\GitProject\flow\src\main\java\io\renren\modules\app\dao" />
+      <recent name="D:\GitProject\flow\src\main\java\io\renren\common\config" />
+      <recent name="D:\GitProject\flow\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.RenrenApplication">
@@ -414,7 +386,8 @@
       <workItem from="1575941789153" duration="2336000" />
       <workItem from="1576839115728" duration="303000" />
       <workItem from="1576840432777" duration="1963000" />
-      <workItem from="1576842631920" duration="3313000" />
+      <workItem from="1576842631920" duration="3991000" />
+      <workItem from="1576891799453" duration="14098000" />
     </task>
     <task id="LOCAL-00001" summary="测试提交">
       <created>1575942047688</created>
@@ -493,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575943751163</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="商品浏览记录">
+      <created>1576847706335</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576847706335</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,13 +482,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试提交" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="商品浏览记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品浏览记录" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="186" key="#Inspections" timestamp="1575886067521">
+    <state x="552" y="186" key="#Inspections" timestamp="1576901755047">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="186" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1575886067521" />
+    <state x="552" y="186" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1576901755047" />
     <state x="552" y="186" key="#Notifications" timestamp="1575944133492">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -517,14 +498,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="186" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1575347084121" />
-    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1575260471553">
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1576901185844">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1575260471553" />
-    <state x="514" y="124" key="CommitChangelistDialog2" timestamp="1575943750676">
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576901185844" />
+    <state x="514" y="124" key="CommitChangelistDialog2" timestamp="1576847704883">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="514" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1575943750676" />
+    <state x="514" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576847704883" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1575943792180">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -537,38 +518,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="779" y="421" width="385" height="224" key="Gitee.CreateGistDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575942902095" />
-    <state width="1860" height="199" key="GridCell.Tab.0.bottom" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.0.bottom" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.0.center" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.0.center" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.0.left" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.0.left" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.0.right" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.0.right" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.1.bottom" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.1.bottom" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.1.center" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.1.center" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.1.left" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.1.left" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
-    <state width="1860" height="199" key="GridCell.Tab.1.right" timestamp="1576845083854">
+    <state width="1860" height="301" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
+    <state width="1860" height="301" key="GridCell.Tab.1.right" timestamp="1576910240127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="199" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576845083854" />
+    <state width="1860" height="301" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576910240127" />
     <state x="490" y="182" key="Maven.ArtifactSearchDialog" timestamp="1576840487415">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -585,10 +566,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="681" y="266" width="567" height="524" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1575620859742" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1575944118104">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1576847719858">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1575944118104" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576847719858" />
     <state x="652" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1575341462147">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

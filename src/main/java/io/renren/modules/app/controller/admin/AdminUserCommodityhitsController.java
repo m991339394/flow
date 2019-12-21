@@ -3,11 +3,10 @@ package io.renren.modules.app.controller.admin;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
-import io.renren.common.LayerMsg;
 import io.renren.common.Result;
 import io.renren.common.utils.BaseController;
 import io.renren.common.utils.StringUtils;
+import io.renren.modules.app.dao.UserCommodityhitsDao;
 import io.renren.modules.app.model.form.GoodsBrowseForm;
 import io.renren.modules.app.model.po.UserCommodityhitsPO;
 import io.renren.modules.app.service.UserCommodityhitsService;
@@ -32,6 +31,9 @@ public class AdminUserCommodityhitsController extends BaseController {
 
     @Autowired
     UserCommodityhitsService userCommodityhitsService;
+
+    @Autowired
+    UserCommodityhitsDao userCommodityhitsDao;
 
     /**
      * 查找全部记录
@@ -87,11 +89,11 @@ public class AdminUserCommodityhitsController extends BaseController {
     }
 
     @RequestMapping(value = "/getLogs.do", method = RequestMethod.POST, produces = "application/json;charset=UTF-8")
-    public LayerMsg getLogs(@RequestBody GoodsBrowseForm goodsBrowseForm) {
+    public Result<?> getLogs(@RequestBody GoodsBrowseForm goodsBrowseForm) {
 
 
-        int pageNo=goodsBrowseForm.getPageNo();
-        int pageSize=goodsBrowseForm.getPageSize();
+        int pageNo = goodsBrowseForm.getPageNo();
+        int pageSize = goodsBrowseForm.getPageSize();
         PageHelper.startPage(pageNo, pageSize);
 
         QueryWrapper<UserCommodityhitsPO> queryWrapper = new QueryWrapper();
@@ -107,20 +109,32 @@ public class AdminUserCommodityhitsController extends BaseController {
             queryWrapper.like("name", goodsBrowseForm.getName());
         }
         List<UserCommodityhitsPO> userCommodityhitsPOS = userCommodityhitsService.list(queryWrapper);
-        List<UserCommodityhitsPO> userCommodityhitsPOS2 = userCommodityhitsPOS.stream().collect(Collectors.collectingAndThen(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(UserCommodityhitsPO :: getOpenid))), ArrayList::new));
+        List<UserCommodityhitsPO> userCommodityhitsPOS2 = userCommodityhitsPOS.stream().collect(Collectors.collectingAndThen(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(UserCommodityhitsPO::getOpenid))), ArrayList::new));
         userCommodityhitsPOS.size();
         Map<String, Object> map = new HashMap<>();
-        map.put("DAUs",userCommodityhitsPOS2.size());
+        map.put("DAUs", userCommodityhitsPOS2.size());
 //        map.put("userCommodityhitsPOS",userCommodityhitsPOS);
         map.put("hits", userCommodityhitsPOS.size());
+        List<UserCommodityhitsPO> query = userCommodityhitsService.query(pageNo, pageSize);
+        map.put("totil", query.size());
+//        list.add(map);
+//        Page<UserCommodityhitsPO> page = new Page<>(pageNo, pageSize,false);
+//        IPage<Map<String, Object>> iPage = userCommodityhitsDao.selectMapsPage(page, queryWrapper);
+        map.put("page", query);
 
-        List<Object> list=new ArrayList<>();
-        list.add(map);
+        List<Object> list = new ArrayList<>();
+//        list.add(iPage);
+//        map.put("page",list);
+//        System.out.println(list.toString());
+//        if (pageNo == 0 || pageSize == 0){
+//            return Result.success(userCommodityhitsService.list(queryWrapper));
+//        }
         list.add(userCommodityhitsPOS);
 
-        PageInfo pageInfo = new PageInfo(userCommodityhitsPOS, pageSize);
+//        PageInfo pageInfo = new PageInfo(userCommodityhitsPOS, pageSize);
 
-        return LayerMsg.success(pageInfo.getTotal(), list);
+        return Result.success(map);
+//        return LayerMsg.success(pageInfo.getTotal(), list);
 
     }
 

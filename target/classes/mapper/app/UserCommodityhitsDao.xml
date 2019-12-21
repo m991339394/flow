@@ -17,4 +17,8 @@
         id, typeid, time, name, openid, img
     </sql>
 
+<!--    <select id="selectMyPage" resultType="io.renren.modules.app.model.po.UserCommodityhitsPO">-->
+<!--        SELECT * FROM commodityhits ${ew.customSqlSegment}-->
+<!--    </select>-->
+
 </mapper>
